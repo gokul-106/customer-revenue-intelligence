@@ -107,6 +107,7 @@ The project includes an interactive Power BI dashboard showcasing customer segme
 ### Preview:
 
 [View Dashboard](customer revenue inteligence dashboard.pdf)
+[Dashboard](revenue inteligence dashboard.png)
 
 ---
 
