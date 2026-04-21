@@ -1,35 +1,39 @@
 # Customer Revenue Intelligence System
 
-An end-to-end data analytics and machine learning project designed to identify high-value customers, uncover revenue concentration, and proactively detect churn risk using behavioral segmentation and predictive modeling.
+An end-to-end data analytics and machine learning system designed to identify high-value customers, uncover revenue concentration, and proactively detect churn risk using behavioral segmentation and predictive modeling.
 
 ---
 
 ## Problem Statement
 
-Businesses often struggle to understand:
+Businesses often lack visibility into:
 - Which customers drive the majority of revenue
-- Where revenue is at risk due to churn
-- How to segment customers for targeted strategies
+- How customer value is distributed across segments
+- Which customers are at risk of churn before it happens
 
-Without this visibility, companies lose high-value customers and miss opportunities for revenue optimization.
+This leads to:
+- Inefficient marketing spend
+- Missed retention opportunities
+- Revenue loss from high-value customers
 
 ---
 
 ## Solution
 
-Built a complete customer intelligence system that:
-- Segments customers based on behavioral and monetary value
+Built a data-driven customer intelligence system that:
+- Segments customers based on behavioral and monetary patterns
 - Identifies high-value and at-risk customers
-- Predicts churn risk using machine learning
-- Visualizes insights through an interactive dashboard
+- Quantifies revenue concentration across segments
+- Enables targeted retention and growth strategies
 
 ---
 
-## Project Overview
+## Key Results
 
-- Processed ~100,000 transactions across ~11,000 customers  
-- Built end-to-end pipeline from raw data → insights → dashboard  
-- Combined analytics + machine learning + visualization  
+- Analyzed ~100,000 transactions across ~11,000 customers  
+- Identified that a very small % of customers contribute a disproportionately high share of revenue  
+- Discovered ~40%+ of revenue is linked to at-risk customer segments  
+- Found **Recency** to be the strongest predictor of churn  
 
 ---
 
@@ -37,51 +41,41 @@ Built a complete customer intelligence system that:
 
 - Performed Exploratory Data Analysis (EDA) to understand customer behavior  
 - Engineered RFM (Recency, Frequency, Monetary) features  
-- Applied K-Means clustering for segmentation  
-- Used Elbow Method and evaluation metrics for optimal clusters  
-- Built Random Forest model for churn prediction  
+- Applied K-Means clustering for customer segmentation  
+- Used Elbow Method and Silhouette Score for cluster validation  
+- Built a Random Forest model for churn prediction  
 - Evaluated feature importance to identify key churn drivers  
-- Developed Power BI dashboard for business insights  
+- Developed an interactive Power BI dashboard for insights  
 
 ---
 
 ## Key Components
 
 ### RFM Segmentation
-- Quantified customer value using Recency, Frequency, Monetary metrics  
-- Enabled clear identification of high-value vs low-value customers  
+- Quantified customer value using Recency, Frequency, and Monetary metrics  
+- Enabled clear separation of high-value vs low-value customers  
 
 ### Customer Segmentation (K-Means)
-- Grouped customers into distinct behavioral segments  
-- Revealed uneven distribution of customers and revenue  
+- Clustered customers into distinct behavioral groups  
+- Identified high-value, low-value, and at-risk segments  
 
 ### Churn Prediction (Random Forest)
-- Predicted customers likely to churn  
-- Identified **recency as the strongest predictor**  
-- Enabled proactive retention strategies  
+- Predicted churn likelihood using behavioral features  
+- Identified Recency as the most important feature  
 
-### Dashboard (Power BI)
-- Visualized customer segments and revenue contribution  
-- Highlighted at-risk revenue segments  
-- Provided actionable business insights  
-
----
-
-## Key Insights
-
-- A very small percentage of customers contributes a disproportionately large share of revenue  
-- ~43% of revenue is linked to customers at risk of churn  
-- Customer distribution is highly skewed across segments  
-- Recency is the most important indicator of churn behavior  
+### Business Intelligence Dashboard (Power BI)
+- Segment-wise revenue distribution  
+- Customer segmentation breakdown  
+- At-risk customer revenue tracking  
+- RFM-based insights visualization  
 
 ---
 
-## Business Impact
+## Dashboard Preview
 
-- Enables targeted retention strategies for high-value customers  
-- Helps businesses reduce revenue loss from churn  
-- Supports segmentation-driven marketing campaigns  
-- Improves decision-making with data-backed insights  
+![Dashboard](dashboard.png)
+
+[Download Full Dashboard (PDF)](dashboard.pdf)
 
 ---
 
@@ -90,24 +84,7 @@ Built a complete customer intelligence system that:
 - Python (Pandas, NumPy, Scikit-learn)  
 - SQL  
 - Power BI  
-- Machine Learning (Clustering & Classification)  
-
----
-
-## Dashboard
-
-The project includes an interactive Power BI dashboard showcasing customer segmentation, revenue insights, and churn risk.
-
-### Key Highlights:
-- Segment-wise revenue distribution  
-- High-value vs low-value customer identification  
-- At-risk customer revenue tracking  
-- RFM-based behavioral insights  
-
-### Preview:
-
-[View Dashboard](customer revenue inteligence dashboard.pdf)
-[Dashboard](revenue inteligence dashboard.png)
+- Machine Learning (Clustering + Classification)  
 
 ---
 
