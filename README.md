@@ -31,9 +31,25 @@ Built a data-driven customer intelligence system that:
 ## Key Results
 
 - Analyzed ~100,000 transactions across ~11,000 customers  
-- Identified that a very small % of customers contribute a disproportionately high share of revenue  
-- Discovered ~40%+ of revenue is linked to at-risk customer segments  
-- Found **Recency** to be the strongest predictor of churn  
+- Identified revenue concentration patterns  
+- Found Recency as strongest churn predictor  
+
+---
+
+## Business Impact
+
+- Enables targeted marketing for high-value customers  
+- Helps proactively retain at-risk customers  
+- Improves revenue optimization strategies  
+- Provides a scalable framework for customer intelligence  
+
+---
+
+## Summary
+
+This project demonstrates an end-to-end analytics workflow — from raw data processing to business insights and predictive modeling — with a strong focus on real-world impact and decision-making.
+
+---
 
 ---
 
