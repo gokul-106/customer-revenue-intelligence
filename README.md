@@ -2,6 +2,8 @@
 
 An end-to-end data analytics and machine learning system designed to identify high-value customers, uncover revenue concentration, and proactively detect churn risk using behavioral segmentation and predictive modeling.
 
+Built using ~100,000 transactions across ~11,000 customers to simulate real-world customer behavior and revenue patterns.
+
 ---
 
 ## Problem Statement
@@ -11,7 +13,7 @@ Businesses often lack visibility into:
 - How customer value is distributed across segments
 - Which customers are at risk of churn before it happens
 
-This leads to:
+This results in:
 - Inefficient marketing spend
 - Missed retention opportunities
 - Revenue loss from high-value customers
@@ -20,36 +22,48 @@ This leads to:
 
 ## Solution
 
-Built a data-driven customer intelligence system that:
-- Segments customers based on behavioral and monetary patterns
-- Identifies high-value and at-risk customers
-- Quantifies revenue concentration across segments
-- Enables targeted retention and growth strategies
+Developed a data-driven customer intelligence system that:
+- Segments customers using RFM behavioral features  
+- Identifies high-value and at-risk customers  
+- Quantifies revenue concentration across segments  
+- Predicts churn risk using machine learning  
+- Visualizes insights through a Power BI dashboard  
+
+---
+
+## Dataset
+
+- ~100,000 transactions  
+- ~11,000 unique customers  
+- Transaction-level data including customer activity and spending  
 
 ---
 
 ## Key Results
 
-- Analyzed ~100,000 transactions across ~11,000 customers  
-- Identified revenue concentration patterns  
-- Found Recency as strongest churn predictor  
+- Identified that ~0.07% of customers contribute a disproportionately large share of revenue  
+- Found that ~43% of total revenue is associated with at-risk customer segments  
+- Established Recency as the strongest predictor of churn through feature importance analysis  
+- Revealed highly skewed customer distribution across segments  
+
+---
+
+## Analysis & Insights
+
+- Customer value is highly concentrated in a small segment of users  
+- A large portion of customers fall into low-value segments with minimal revenue contribution  
+- High-value customers exhibit strong monetary contribution but require retention focus  
+- At-risk customers represent a significant revenue recovery opportunity  
+- Behavioral patterns (recency, frequency) strongly influence churn likelihood  
 
 ---
 
 ## Business Impact
 
-- Enables targeted marketing for high-value customers  
-- Helps proactively retain at-risk customers  
-- Improves revenue optimization strategies  
-- Provides a scalable framework for customer intelligence  
-
----
-
-## Summary
-
-This project demonstrates an end-to-end analytics workflow — from raw data processing to business insights and predictive modeling — with a strong focus on real-world impact and decision-making.
-
----
+- Enables targeted retention strategies for high-value customers  
+- Helps proactively reduce revenue loss from at-risk customers  
+- Supports segmentation-driven marketing and personalization  
+- Improves decision-making with data-backed insights  
 
 ---
 
@@ -57,11 +71,11 @@ This project demonstrates an end-to-end analytics workflow — from raw data pro
 
 - Performed Exploratory Data Analysis (EDA) to understand customer behavior  
 - Engineered RFM (Recency, Frequency, Monetary) features  
-- Applied K-Means clustering for customer segmentation  
-- Used Elbow Method and Silhouette Score for cluster validation  
+- Applied K-Means clustering for segmentation  
+- Used Elbow Method and Silhouette Score (~0.39) for cluster validation  
 - Built a Random Forest model for churn prediction  
-- Evaluated feature importance to identify key churn drivers  
-- Developed an interactive Power BI dashboard for insights  
+- Analyzed feature importance to identify key drivers  
+- Developed a Power BI dashboard for visualization  
 
 ---
 
@@ -72,18 +86,18 @@ This project demonstrates an end-to-end analytics workflow — from raw data pro
 - Enabled clear separation of high-value vs low-value customers  
 
 ### Customer Segmentation (K-Means)
-- Clustered customers into distinct behavioral groups  
-- Identified high-value, low-value, and at-risk segments  
+- Grouped customers into behavioral clusters  
+- Identified high-value, regular, low-value, and at-risk segments  
 
 ### Churn Prediction (Random Forest)
 - Predicted churn likelihood using behavioral features  
-- Identified Recency as the most important feature  
+- Identified Recency as the strongest predictor  
 
 ### Business Intelligence Dashboard (Power BI)
-- Segment-wise revenue distribution  
-- Customer segmentation breakdown  
-- At-risk customer revenue tracking  
-- RFM-based insights visualization  
+- Customer distribution by segment  
+- Revenue contribution analysis  
+- Customer segment share  
+- RFM-based behavioral visualization  
 
 ---
 
@@ -105,3 +119,26 @@ This project demonstrates an end-to-end analytics workflow — from raw data pro
 ---
 
 ## Project Structure
+
+customer-revenue-intelligence/
+
+- notebooks/
+  - data_preprocessing.py  
+  - generate_transactions.py  
+  - rfm_analysis.py  
+  - kmeans_elbow.py  
+  - kmeans_segmentation.py  
+  - sql_analysis.py  
+
+- dashboard.pbix  
+- dashboard.pdf  
+- dashboard.png  
+- README.md  
+
+---
+
+## Summary
+
+This project demonstrates how data analytics and machine learning can transform raw transactional data into actionable business insights, enabling customer segmentation, churn prediction, and revenue optimization at scale.
+
+This project demonstrates how data analytics and machine learning can transform raw transactional data into actionable business insights, enabling customer segmentation, churn prediction, and revenue optimization at scale.
