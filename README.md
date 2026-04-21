@@ -3,7 +3,6 @@
 An end-to-end data analytics and machine learning system designed to identify high-value customers, uncover revenue concentration, and proactively detect churn risk using behavioral segmentation and predictive modeling.
 
 Built using ~100,000 transactions across ~11,000 customers to simulate real-world customer behavior and revenue patterns.
-
 ---
 
 ## Problem Statement
@@ -41,10 +40,10 @@ Developed a data-driven customer intelligence system that:
 
 ## Key Results
 
-- Identified that ~0.07% of customers contribute a disproportionately large share of revenue  
-- Found that ~43% of total revenue is associated with at-risk customer segments  
-- Established Recency as the strongest predictor of churn through feature importance analysis  
-- Revealed highly skewed customer distribution across segments  
+- Processed ~100,000 transactions across ~11,000 customers to build a customer intelligence system  
+- Identified that a very small percentage of customers contributes a disproportionately large share of revenue  
+- Discovered ~43% of total revenue is associated with at-risk customer segments  
+- Established Recency as the strongest predictor of churn using feature importance analysis  
 
 ---
 
