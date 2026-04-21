@@ -140,5 +140,3 @@ customer-revenue-intelligence/
 ## Summary
 
 This project demonstrates how data analytics and machine learning can transform raw transactional data into actionable business insights, enabling customer segmentation, churn prediction, and revenue optimization at scale.
-
-This project demonstrates how data analytics and machine learning can transform raw transactional data into actionable business insights, enabling customer segmentation, churn prediction, and revenue optimization at scale.
